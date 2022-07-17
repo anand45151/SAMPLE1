@@ -9,10 +9,10 @@
     android:background="#fff"
     android:orientation="vertical"
     tools:context=".newuser">
+
     <ImageView
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        />
+        android:layout_width="84dp"
+        android:layout_height="66dp" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -36,64 +36,69 @@
         android:orientation="vertical"
         android:layout_marginBottom="20dp">
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/full_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Full Name"
+            android:padding="8dp"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
-            <com.google.android.material.textfield.TextInputEditText
+            <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:id="@+id/full_name"
                 android:inputType="text" />
         </com.google.android.material.textfield.TextInputLayout>
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/user_name"
             app:counterEnabled="true"
             app:counterMaxLength="15"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Username"
+            android:padding="8dp"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
-            <com.google.android.material.textfield.TextInputEditText
+            <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:id="@+id/user_name"
                 android:inputType="text"
                 />
         </com.google.android.material.textfield.TextInputLayout>
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/regisemail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Email"
+            android:padding="8dp"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
-            <com.google.android.material.textfield.TextInputEditText
+            <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:id="@+id/email"
                 android:inputType="text"
                 />
         </com.google.android.material.textfield.TextInputLayout>
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/phone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Phone"
+            android:padding="8dp"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
-            <com.google.android.material.textfield.TextInputEditText
+            <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:id="@+id/phone"
                 android:inputType="number"
                 />
         </com.google.android.material.textfield.TextInputLayout>
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Password"
+            android:padding="8dp"
             app:passwordToggleEnabled="true"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
-            <com.google.android.material.textfield.TextInputEditText
+            <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:id="@+id/password"
                 android:inputType="textPassword" />
         </com.google.android.material.textfield.TextInputLayout>
 
