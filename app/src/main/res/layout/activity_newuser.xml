@@ -13,15 +13,16 @@
     <ImageView
         android:layout_width="84dp"
         android:layout_height="66dp" />
+
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Welcome"
-        android:textSize="40sp"
-        android:textStyle="bold"
+        android:layout_height="52dp"
+        android:layout_marginTop="15dp"
         android:fontFamily="@font/baloo_bhai"
+        android:text="Welcome"
         android:textColor="@color/black"
-        android:layout_marginTop="15dp"/>
+        android:textSize="40sp"
+        android:textStyle="bold" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -116,6 +117,7 @@
             android:layout_height="wrap_content"
             android:background="#0000"
             android:textColor="@color/black"
+            android:id="@+id/movebacklogin"
             android:text="Already Have an account ?"/>
     </LinearLayout>
 </LinearLayout>

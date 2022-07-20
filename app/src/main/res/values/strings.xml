@@ -2,4 +2,23 @@
     <string name="app_name">MiniProject</string>
     <string name="ac">Create Account</string>
     <string name="intro">Enter Your Phone Number To Continoue With Our Tourism App And Make A Beautiful Memories With Your Friends ❤️</string>
+    <string name="description">THIS IS THE BEST PLACE IN WORLD </string>
+    <string name="client1">Very well arranged ! Affordable prices.. The safari team organized all thing very well.
+        We had an amazing time in kashmir and kalol bhag.
+    </string>
+    <string name="client2">
+        Once we reached the destination,everything was exactly as it was mentioned in term of itinerary and inclusions.The on trip assistance and support provided by their local representative was just awesome.
+        we have tones of good memories to cherish and all that because of such a professional company.
+    </string>
+    <string name="client3">
+        I was so pleased with trip. our driver were outstanding :Knowledgeable,friendly,safety-conscious, and had great sense of humor.
+        Thank you for your service and I look forward to working with you again.
+    </string>
+    <string name="client4">
+    Once we reached the destination,everything was exactly as it was mentioned in term of itinerary and inclusions.The on trip assistance and support provided by their local representative was just awesome.
+        we have tones of good memories to cherish and all that because of such a professional company.
+    </string>
+    <string name="terms">
+        For booking tour you are agreed with our terms and conditions
+    </string>
 </resources>
