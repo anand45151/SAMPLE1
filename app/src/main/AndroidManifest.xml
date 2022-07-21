@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MiniProject">
         <activity
+            android:name=".userdetails"
+            android:exported="false" />
+        <activity
             android:name=".Seeall"
             android:exported="false" />
         <activity
